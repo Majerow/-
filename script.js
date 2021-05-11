@@ -20,7 +20,7 @@ window.onload=function(){
            out +=`<div class="card">`;
            out +=`<h3 class="title">${data[i]['gsx$name']['$t']}</h3>`;
            out +=`<img src="${data[i]['gsx$image']['$t']}" alt="">`;
-           out +=`<p class="price">Цена ${data[i]['gsx$price']['$t']}</p>`;
+           out +=`<p class="price">Цена: ${data[i]['gsx$price']['$t']}</p>`;
            out +=`<button name="add_to_cart" data="${data[i]['gsx$article']['$t']}">Купити</button>`;
            out +=`</div>`;
         }
